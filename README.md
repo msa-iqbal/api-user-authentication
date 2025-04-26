@@ -63,7 +63,17 @@ The API will run at `http://localhost:3000` (or the port specified in `.env`).
 | POST   | `/auth/signup` | Register a new user | `{ "name": "John", "email": "john@example.com", "password": "123456" }` | None          |
 | POST   | `/auth/login`  | User login          | `{ "email": "john@example.com", "password": "123456" }`                 | None          |
 
-## **Folder Structure**
+On successful login, you will receive a JWT token.
+
+**Access Protected Routes:** Include the JWT token in the `Authorization` header as follows:
+
+   ```plaintext
+   Authorization: Bearer <your-token>
+   ```
+
+    ![alt text](image.png)
+
+## **Project Structure**
 
 ```bash
 project/
