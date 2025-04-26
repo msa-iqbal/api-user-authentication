@@ -69,7 +69,7 @@ On successful login, you will receive a JWT token.
    Authorization: Bearer <your-token>
    ```
 
-    ![alt text](image.png)
+   ![alt text](image.png)
 
 ## **Project Structure**
 
