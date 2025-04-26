@@ -19,17 +19,15 @@ This project is a **User Authentication API** built with **Node.js**, **Express.
 - **jsonwebtoken**: For creating and verifying JWTs.
 - **dotenv**: For environment variable management.
 
-## **Getting Started**
-
-### **Prerequisites**
+## Prerequisites
 
 Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org) (v14 or above)
 - [MongoDB](https://www.mongodb.com/try/download/community) (running locally or a connection URI)
-- [Postman](https://www.postman.com/downloads)
+- [Postman](https://www.postman.com/downloads) (API Testing Tool)
 
-### **Installation**
+## Installation
 
 1. Clone the repository:
 2. Install dependencies:
@@ -38,23 +36,23 @@ Ensure you have the following installed:
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add the following variables:
+3. Configure environment variables: Create a `.env` file in the root directory and add the following:
 
    ```plaintext
     PORT=3000
     MONGO_URI=mongodb://127.0.0.1:27017/auth_demo
-    JWT_SECRET=mySuperSecretKey12345
+    JWT_SECRET=yourSuperSecretKey
     JWT_EXPIRES_IN=1h
     BCRYPT_SALT_ROUNDS=10
    ```
 
-### **Run the Server**
+4. Run the server:
 
-```bash
-node index.js
-```
+   ```bash
+   node index.js
+   ```
 
-The API will run at `http://localhost:3000` (or the port specified in `.env`).
+The server will run at `http://localhost:3000`. (or the port specified in `.env`).
 
 ## **API Endpoints**
 
