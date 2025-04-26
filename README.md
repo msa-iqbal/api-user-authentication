@@ -52,7 +52,7 @@ Ensure you have the following installed:
    node index.js
    ```
 
-The server will run at `http://localhost:3000`. (or the port specified in `.env`).
+   The server will run at `http://localhost:3000`. (or the port specified in `.env`).
 
 ## **API Endpoints**
 
