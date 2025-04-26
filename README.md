@@ -41,7 +41,7 @@ Ensure you have the following installed:
    ```plaintext
     PORT=3000
     MONGO_URI=mongodb://127.0.0.1:27017/auth_demo
-    JWT_SECRET=yourSuperSecretKey
+    JWT_SECRET=mySuperSecretKey12345
     JWT_EXPIRES_IN=1h
     BCRYPT_SALT_ROUNDS=10
    ```
