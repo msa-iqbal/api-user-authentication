@@ -78,10 +78,10 @@ project/
 
 ```
 
-## **License**
+## 📌 **License**
 
-This project is licensed under the MIT License. See the [LICENSE](https://chatgpt.com/c/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## **Contributing**
+## 🤝 **Contributing**
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
